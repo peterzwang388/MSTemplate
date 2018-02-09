@@ -9,7 +9,7 @@ namespace MSCodeTemplate.Api.Services.Interfaces
     public interface ITemplateService
     {
 
-         Task<dynamic> GetTest(string request);
-        
+        Task<dynamic> GetTest(string request);
+        Task<dynamic> GetPatronName(string request);
     }
 }
