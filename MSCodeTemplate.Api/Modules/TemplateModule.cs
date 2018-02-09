@@ -16,7 +16,7 @@ namespace MSCodeTemplate.Api.Modules
             Get["/members/{ReferenceNumber}", true] = async (_, ct) =>
             {
                 MemberNameRequest idx = this.Bind<MemberNameRequest>();
-              return   await templateService.GetPatronName(idx.ReferenceNumber);
+              return   await templateService.GetMemberName(idx.ReferenceNumber);
             };
         }
     }

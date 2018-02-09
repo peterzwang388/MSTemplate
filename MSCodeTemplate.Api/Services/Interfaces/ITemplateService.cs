@@ -10,6 +10,6 @@ namespace MSCodeTemplate.Api.Services.Interfaces
     {
 
         Task<dynamic> GetTest(string request);
-        Task<dynamic> GetPatronName(string request);
+        Task<dynamic> GetMemberName(string request);
     }
 }

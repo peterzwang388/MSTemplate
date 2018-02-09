@@ -24,7 +24,7 @@ namespace MSCodeTemplate.Api.Services
             return "GettestOK";
         }
 
-        public async Task<dynamic> GetPatronName(string referenceNumber)
+        public async Task<dynamic> GetMemberName(string referenceNumber)
         {
             string name = "";
             Member result = await GetMember(referenceNumber);
